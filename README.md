@@ -1,10 +1,11 @@
-# PHP CRUD Application - ApexPlanet Internship
+# PHP CRUD Blog Application - ApexPlanet Internship
 
-A comprehensive PHP CRUD (Create, Read, Update, Delete) application built as part of the ApexPlanet Internship program. This project demonstrates modern PHP development practices, database integration, and full-stack web development skills.
+A comprehensive PHP CRUD (Create, Read, Update, Delete) blog application with user authentication built as part of the ApexPlanet Internship program. This project demonstrates modern PHP development practices, MySQL database integration, user authentication, and secure web development.
 
 ## 🎯 Project Overview
 
 This project serves as a complete learning experience covering:
+
 - **Backend Development**: PHP 7.4+ with MySQL database
 - **Frontend Integration**: HTML5, CSS3, and responsive design
 - **Development Environment**: XAMPP local server setup
@@ -35,11 +36,13 @@ Before setting up this project, ensure you have:
 ### Step 1: Install XAMPP
 
 1. **Download XAMPP**:
+
    - Visit [https://www.apachefriends.org/](https://www.apachefriends.org/)
    - Download the latest version for your operating system
    - Install with default settings
 
 2. **Start Services**:
+
    ```bash
    # Open XAMPP Control Panel
    # Start Apache and MySQL services
@@ -53,6 +56,7 @@ Before setting up this project, ensure you have:
 ### Step 2: Set Up Development Environment
 
 1. **Install Visual Studio Code**:
+
    ```bash
    # Download from https://code.visualstudio.com/
    # Install the following extensions:
@@ -69,12 +73,14 @@ Before setting up this project, ensure you have:
 ### Step 3: Clone and Set Up Project
 
 1. **Clone Repository**:
+
    ```bash
    git clone https://github.com/YOUR-USERNAME/php-mycrud-app.git
    cd php-mycrud-app
    ```
 
 2. **Move to XAMPP Directory**:
+
    ```bash
    # Copy project to XAMPP htdocs folder
    # Windows: C:\xampp\htdocs\php-mycrud-app\
@@ -116,6 +122,7 @@ php-mycrud-app/
 ### Database Setup
 
 1. **Create Database**:
+
    ```sql
    -- Access phpMyAdmin at http://localhost/phpmyadmin/
    CREATE DATABASE crud_app;
@@ -137,12 +144,14 @@ php-mycrud-app/
 ## 🧪 Testing
 
 ### Manual Testing
+
 1. Start XAMPP services (Apache + MySQL)
 2. Navigate to `http://localhost/php-mycrud-app/`
 3. Verify all status indicators are green
 4. Check system information display
 
 ### Automated Testing (Future)
+
 ```bash
 # PHPUnit tests will be added in future iterations
 composer test
@@ -164,6 +173,7 @@ This project covers:
 ## 🎥 Documentation & Recording
 
 ### Screen Recording Checklist
+
 - [ ] XAMPP installation process
 - [ ] Git repository setup and GitHub push
 - [ ] VS Code configuration with PHP extensions
@@ -171,6 +181,7 @@ This project covers:
 - [ ] Code walkthrough and explanation
 
 ### Deliverables
+
 1. **GitHub Repository**: Complete source code with documentation
 2. **LinkedIn Video**: Screen recording of setup and demonstration
 3. **ApexPlanet Submission**: Repository link and video showcase
@@ -193,6 +204,7 @@ This project is created for educational purposes as part of the ApexPlanet Inter
 ## 📞 Support
 
 For questions or issues:
+
 - **Internship Program**: Contact ApexPlanet mentors
 - **Technical Issues**: Create GitHub issues
 - **Documentation**: Refer to inline code comments

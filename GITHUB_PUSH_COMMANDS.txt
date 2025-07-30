@@ -1,0 +1,18 @@
+# GitHub Push Commands
+# Replace YOUR-USERNAME with your actual GitHub username
+
+# Step 1: Add remote repository
+git remote add origin https://github.com/YOUR-USERNAME/php-mycrud-app.git
+
+# Step 2: Push to GitHub
+git push -u origin main
+
+# Alternative if you get authentication errors:
+# Use GitHub Desktop or generate a Personal Access Token
+
+# Verify push was successful:
+git remote -v
+git log --oneline
+
+# Your repository will be available at:
+# https://github.com/YOUR-USERNAME/php-mycrud-app
