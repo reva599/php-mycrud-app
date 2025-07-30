@@ -6,21 +6,65 @@ A comprehensive PHP CRUD (Create, Read, Update, Delete) blog application with us
 
 This project serves as a complete learning experience covering:
 
-- **Backend Development**: PHP 7.4+ with MySQL database
-- **Frontend Integration**: HTML5, CSS3, and responsive design
-- **Development Environment**: XAMPP local server setup
-- **Version Control**: Git and GitHub integration
-- **Code Quality**: Modern PHP practices and documentation
+- **Backend Development**: PHP 7.4+ with MySQL database and advanced security features
+- **Frontend Integration**: HTML5, CSS3, Bootstrap 5, and responsive design
+- **Security Implementation**: SQL injection protection, RBAC, CSRF protection, and audit logging
+- **Authentication System**: Secure user registration, login, role management, and session handling
+- **Development Environment**: XAMPP local server setup with security configurations
+- **Version Control**: Git and GitHub integration with professional workflows
+- **Code Quality**: Modern PHP practices, security best practices, and comprehensive documentation
 
 ## 🛠️ Technology Stack
 
 - **Language**: PHP 7.4+
 - **Database**: MySQL 8.0+
 - **Web Server**: Apache (via XAMPP)
-- **Frontend**: HTML5, CSS3, JavaScript
+- **Frontend**: HTML5, CSS3, JavaScript, Bootstrap 5
 - **Version Control**: Git
 - **IDE**: Visual Studio Code
 - **Package Manager**: Composer (future implementation)
+
+## 🔐 Advanced Security Features
+
+### **SQL Injection Protection**
+
+- ✅ **Prepared Statements**: All database queries use MySQLi prepared statements with parameter binding
+- ✅ **Input Validation**: Multi-layer validation before database operations
+- ✅ **Error Handling**: Secure error handling without information disclosure
+- ✅ **Query Sanitization**: Comprehensive input sanitization and type checking
+
+### **Role-Based Access Control (RBAC)**
+
+- ✅ **4-Tier User Hierarchy**: Subscriber → Author → Editor → Admin
+- ✅ **Permission System**: Hierarchical permission checking with role inheritance
+- ✅ **Access Control**: Page-level and function-level access restrictions
+- ✅ **Post Ownership**: Users can only modify their own content (unless admin/editor)
+- ✅ **Admin Dashboard**: Comprehensive user and role management interface
+
+### **Authentication & Session Security**
+
+- ✅ **Secure Password Hashing**: PHP `password_hash()` with `PASSWORD_DEFAULT`
+- ✅ **Session Management**: Secure session handling with timeout and regeneration
+- ✅ **Rate Limiting**: Brute force protection with login attempt tracking
+- ✅ **Account Lockout**: Automatic lockout after failed login attempts
+- ✅ **CSRF Protection**: Cross-site request forgery prevention with secure tokens
+- ✅ **Audit Logging**: Comprehensive activity tracking for security monitoring
+
+### **Input Validation & Sanitization**
+
+- ✅ **XSS Prevention**: HTML entity encoding and content filtering
+- ✅ **Data Validation**: Type-specific validation for all input fields
+- ✅ **Content Filtering**: Detection and blocking of malicious content patterns
+- ✅ **Length Validation**: Minimum and maximum length enforcement
+- ✅ **Format Validation**: Email, username, and password format checking
+
+### **Database Security**
+
+- ✅ **Foreign Key Constraints**: Referential integrity enforcement
+- ✅ **Check Constraints**: Valid role and status values only
+- ✅ **Indexes**: Performance optimization for security queries
+- ✅ **Audit Tables**: Login attempts, user sessions, and activity logging
+- ✅ **Data Integrity**: Comprehensive data validation at database level
 
 ## 📋 Prerequisites
 

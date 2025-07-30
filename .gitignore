@@ -1,75 +1,40 @@
-# PHP
-*.log
-*.tmp
-*.cache
-vendor/
-composer.phar
-.env
-.env.local
-.env.production
+# Final Project - .gitignore
+# Only ignore sensitive and temporary files
 
-# IDE and Editor files
+# Logs
+*.log
+error.log
+access.log
+
+# IDE files
 .vscode/settings.json
 .idea/
 *.swp
 *.swo
-*~
 
-# OS generated files
+# OS files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
-
-# XAMPP specific
-/logs/
-/tmp/
-/backup/
-
-# Database
-*.sql
-*.db
-*.sqlite
-*.sqlite3
-
-# Node.js (if using frontend build tools)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Build outputs
-/dist/
-/build/
-/public/build/
 
 # Temporary files
 *.tmp
 *.temp
-*.bak
-*.backup
 
-# Configuration files with sensitive data
-config/database.php
-config/secrets.php
+# Environment files (sensitive)
+.env
+.env.local
+.env.production
 
-# Upload directories
-/uploads/
-/files/
-/images/uploads/
+# User uploads (if implemented)
+uploads/
+files/
 
-# Cache directories
-/cache/
-/storage/cache/
-/storage/logs/
-/storage/sessions/
+# Cache
+cache/
 
-# Testing
-/coverage/
-.phpunit.result.cache
+# Composer
+vendor/
+composer.lock
 
-# Documentation build
-/docs/build/
+# Node modules
+node_modules/
